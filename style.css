@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('assets/background.jpeg') no-repeat center center fixed; 
+    background-size: cover; /* Background akan memenuhi layar */
+    color: white; /* Warna teks agar kontras dengan background */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px;
+    background: rgba(72, 75, 68, 0.8); /* Background dengan transparansi */
+}
+
+.container {
+    width: 80%; /* Menyesuaikan agar responsif */
+    max-width: 800px; /* Batas maksimum lebar */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    font-size: 40px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin: 0 50px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header, section {
+    width: 100vw;
+    min-height: 80vh;
+    padding: 50px 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Transparansi agar background tetap terlihat */
+}
+
+.text-section {
+    max-width: 60%;
+}
+
+.highlight {
+    color: #ffcc00; /* Warna highlight lebih menarik */
+}
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    border: 5px solid white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+    transform: scale(1.1); /* Efek hover memperbesar foto */
+}
+
+/* Styling untuk About & Education */
+section {
+    padding: 40px 0;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.container p {
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #ffcc00;
+    font-size: 28px;
+}
+
+.edu-item {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.edu-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.image-section {
+    margin-top: 20px;
+}
+
+#about {
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+#education {
+    padding-top: 20px;
+    margin-top: -10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.exp-item {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.exp-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
